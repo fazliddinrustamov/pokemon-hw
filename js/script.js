@@ -1,4 +1,4 @@
-var elMainList = $('.main-list');
+let elMainList = $('.main-list');
 
 pokemons.forEach(pokemon => {
   let partItem = createElement('li', 'part-item d-flex flex-column mb-5');
@@ -23,7 +23,7 @@ pokemons.forEach(pokemon => {
   elMainList.appendChild(partItem);
 })
 
-// for (var pokemon of pokemons) {
+// for (let pokemon of pokemons) {
 //   let partItem = createElement('li', 'part-item d-flex flex-column mb-5');
 //   let itemHeading = createElement('h3', 'pokemon-heading', `${pokemon.name}`);
 //   let itemImg = createElement('img', 'pokemon-img mb-3');
